@@ -1,4 +1,4 @@
-# Cyclone Road Flooding: GraphSAGE vs Gradient Boosting
+# Cyclone Flood Risk & Evacuation Routing System
 
 Predicts which road segments flood during a cyclone, for **15 cyclone events across 4 Indian coastal cities**. Flood labels come from Sentinel-1 SAR flood extent. Each road segment gets terrain, land-cover and rainfall features and becomes a node in a road graph. The project then asks one question: **does modelling the road network as a graph (GraphSAGE) predict flooding better than a model that looks at each segment on its own (HistGradientBoosting)?**
 
