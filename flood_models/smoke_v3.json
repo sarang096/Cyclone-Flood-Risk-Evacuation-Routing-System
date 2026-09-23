@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "test_event": "bhubaneswar__dana",
+      "n_cls": 9321,
+      "n_depth": 9061,
+      "base_rate": 0.03358008712530136,
+      "sage_pr_auc": 0.06070745522010251,
+      "sage_roc_auc": 0.6247417985574768,
+      "sage_depth_mae": 0.05603904649615288,
+      "sage_depth_r2": -0.24927120244824574,
+      "gbm_pr_auc": 0.16321895843682072,
+      "gbm_roc_auc": 0.7431594351346904,
+      "gbm_depth_mae": 0.0990963580915609,
+      "gbm_depth_r2": -1.6941253973430168,
+      "best_val_pr_auc": 0.09551488358286944
+    },
+    {
+      "test_event": "bhubaneswar__fani",
+      "n_cls": 9321,
+      "n_depth": 8938,
+      "base_rate": 0.052784036844968796,
+      "sage_pr_auc": 0.0742647616592507,
+      "sage_roc_auc": 0.616607134470937,
+      "sage_depth_mae": 0.01813555881381035,
+      "sage_depth_r2": -0.006211920307490848,
+      "gbm_pr_auc": 0.1769586493844923,
+      "gbm_roc_auc": 0.7162434493865836,
+      "gbm_depth_mae": 0.030551121348669198,
+      "gbm_depth_r2": 0.028298280641067763,
+      "best_val_pr_auc": 0.09663178958056041
+    }
+  ],
+  "timestamp": "20260826_234314",
+  "graphs_dir": "C:\\college\\capstone2.0\\bitch\\graphs_units_v1"
+}
