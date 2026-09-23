@@ -1,0 +1,8 @@
+# Versions used to produce the results in this repo
+numpy==2.4.3
+pandas==2.3.1
+scipy==1.16.1
+scikit-learn==1.7.1
+matplotlib==3.10.5
+torch==2.10.0
+torch_geometric==2.8.0.post1

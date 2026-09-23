@@ -11,7 +11,7 @@ methodology used in the closest published analog), retrains a fresh model each
 time, and reports mean +/- std across all 15 folds — a genuine k=15 evaluation
 instead of k=4.
 
-Runs on bitch/graphs_units_v1/*.pt (built by build_graphs_units.py from
+Runs on graphs_units_v1/*.pt (built by build_graphs_units.py from
 build_flood_units.py's unit-level output) specifically because those graphs
 are ~5-6x smaller by node count than the segment-level graphs_v5/, which is
 what makes 15 independent training runs affordable in one session.

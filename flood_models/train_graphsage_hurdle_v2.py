@@ -2,7 +2,7 @@
 train_graphsage_hurdle_v2.py — GraphSAGE hurdle model, three evidence-based fixes
 ===================================================================================
 Builds on train_graphsage_hurdle.py (itself adapted from graphsage_flood_depth
-(2).py). Same data (bitch/graphs_v5/*.pt), same two-head architecture family,
+(2).py). Same data (graphs_v5/*.pt), same two-head architecture family,
 same evaluation protocol. Three changes, each justified by evidence already
 produced in this pipeline, not guesswork:
 

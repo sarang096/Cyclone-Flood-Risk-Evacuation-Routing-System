@@ -2,7 +2,7 @@
 train_graphsage_hurdle.py — GraphSAGE flood depth + classification, local
 ===========================================================================
 Adapted from graphsage_flood_depth (2).py (Colab notebook) to run locally
-against bitch/graphs_v5/*.pt (built by build_graphs_v5.py from bitch/0.05/
+against graphs_v5/*.pt (built by build_graphs_v5.py from 0.05/
 CSVs), instead of the Drive .npz archives the notebook was written for.
 
 DROPPED ON PURPOSE (per instruction — these were EDA, not training):
@@ -90,7 +90,7 @@ USE_WSE_MASK = not args.no_wse_mask
 FLOOD_THRESHOLD_M = args.flood_threshold_m
 TARGET_RECALL = args.target_recall
 
-# porbandar dropped — bitch/0.05/ has no porbandar CSVs, so build_graphs_v5.py
+# porbandar dropped — 0.05/ has no porbandar CSVs, so build_graphs_v5.py
 # never produced porbandar__*.pt
 # bhubaneswar added 2026-08-23; held out on "dana" (its most recent event),
 # same choice as puri, which shares dana/fani/titli/yaas with it.

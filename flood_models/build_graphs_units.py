@@ -1,7 +1,7 @@
 """
 build_graphs_units.py — PyG graphs from build_flood_units.py's unit-level output
 ====================================================================================
-Converts bitch/units_v2/ (produced by `build_flood_units.py --csv "0.05/*.csv"
+Converts units_v2/ (produced by `build_flood_units.py --csv "0.05/*.csv"
 --out ./units_v2`) into the same city__cyclone.pt Data schema build_graphs_v5.py
 produces (x, edge_index, y_flood, mask_flood, y_depth, mask_depth), except nodes
 are spatially-constrained flood UNITS (~8 contiguous road segments each) instead

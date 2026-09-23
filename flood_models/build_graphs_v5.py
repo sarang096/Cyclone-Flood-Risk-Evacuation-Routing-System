@@ -2,7 +2,7 @@
 build_graphs_v5.py — cyclone flood road-risk graph construction
 ================================================================
 Adapted from cyclone_graphs.ipynb's build_graphs.py cell to match the
-actual column schema of bitch/0.05/*.csv (u/v/key instead of road_id,
+actual column schema of 0.05/*.csv (u/v/key instead of road_id,
 lon/lat instead of longitude/latitude, length_m instead of
 road_length_m, no rainfall_mm/effective_rain_mm/runoff_coeff/
 curve_number — instead a richer per-point rain_* + terrain feature
